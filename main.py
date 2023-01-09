@@ -167,5 +167,6 @@ class FaceRecognition:
 
 
 
+
 fr = FaceRecognition()
 fr.run_recognition()
