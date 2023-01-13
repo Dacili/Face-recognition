@@ -11,7 +11,7 @@ Names are selfexplanatory haha.  <br>
 
 ### Face detection   
 <img width="610" alt="face detection" src="https://user-images.githubusercontent.com/37112852/212325912-4077b809-248a-4cbb-8892-864130c07f01.PNG">  
-<br>
+   
 ### Face recognition demo
 
 
