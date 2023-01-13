@@ -7,6 +7,7 @@ print('This is the file that works only for DETECTION of the face')
 # Haar Cascade is basically a classifier which is used to detect the objects for which it has been trained for, from the source.
 # load trained xml classifiers
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+# face_cascade = cv2.CascadeClassifier('haarcascade_smile.xml')
 #
 # capture frames from a camera
 cap = cv2.VideoCapture(0)
