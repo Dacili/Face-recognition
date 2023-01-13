@@ -23,6 +23,7 @@ class FaceRecognition:
         # loop trough faces folder for every image
         for image in os.listdir('faces'):
             face_image = face_recognition.load_image_file(f"faces/{image}")
+            # face_encodings => Given an image, return the 128-dimension face encoding for each face in the image.
             face_encoding = face_recognition.face_encodings(face_image)[0]
             # print(face_encoding)
             self.known_face_encodings.append(face_encoding)
@@ -40,6 +41,7 @@ class FaceRecognition:
 
             # Only process every other frame of video to save time
             if self.process_current_frame:
+                # face_locations => Returns an array of bounding boxes of human faces in an img
                 self.face_locations = face_recognition.face_locations(frame)
                 # print('we found faces')
                 # print(self.face_locations)
@@ -52,7 +54,7 @@ class FaceRecognition:
                     matches = face_recognition.compare_faces(self.known_face_encodings, face_encoding)
                     name = "Unknown"
 
-                    # Calculate the shortest distance to face
+                    # Calculate the shortest distance to face (distance tells you how similar the faces are)
                     face_distances = face_recognition.face_distance(self.known_face_encodings, face_encoding)
 
                     best_match_index = np.argmin(face_distances)
