@@ -29,7 +29,7 @@ pip 22.3.1
 opencv-python==4.7.0.68  
 dlib==19.24.99  
 face-recognition==1.3.0  
-
+IDE: Python Charm  
 <br> 
   
 In packagesFile.txt there are all packages versions info. To get that I run:  
