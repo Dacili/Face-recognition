@@ -7,7 +7,7 @@ Detection only detect faces, while recognition is actually face detection + face
 There are two files in this project:
 1. faceDetection.py
 2. faceRecognition.py  
-Names are selfexplanatory haha.  <br>
+Names are selfexplanatory haha. In order to exit the scripts press Esc. <br>
 
 ### Face detection   
 <img width="610" alt="face detection" src="https://user-images.githubusercontent.com/37112852/212325912-4077b809-248a-4cbb-8892-864130c07f01.PNG">  
