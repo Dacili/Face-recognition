@@ -36,9 +36,9 @@ To install these packages when pulling the code run:
 ```  
 pip install -r packagesFile.tx
 ```  
-Note: I had a lot of issues when trying to install **dlib** library which was needed for face-recognition pkg.  
+Note: I had a lot of issues when trying to install **dlib** (a toolkit for making real world machine learning and data analysis applications) library which was needed for face-recognition pkg.  
 I succeeded to install it with this stackoverflow answer: https://stackoverflow.com/questions/74476152/error-in-installing-dlib-library-in-python3-11/74573179#74573179   
-Github repo for classifiers, used in faceDetection.py:  https://github.com/opencv/opencv/tree/4.x/data/haarcascades
+Github repo for **classifiers**, used in faceDetection.py:  https://github.com/opencv/opencv/tree/4.x/data/haarcascades
 <br>
 
 
