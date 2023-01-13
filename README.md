@@ -15,7 +15,8 @@ Firstly we have to use some classifier (Github repo for **classifiers**, used in
    
 ### Face recognition demo  
 Folder faces, acts like a "database" for known faces. There we put images of known faces, where name of the image, is the name of the person. At the beginning of the script we're performing encoding (128-dimension face encoding for each face in the image) for known faces.  
-After that, we're using the camera, and analyzing the frames, in order to detect faces. Once faces are detected, we're also encoding that image, and after that trying to find a match with our known faces. If match happens, the name is shown on the image, otherwise Unknown is shown.  
+After that, we're using the camera, and analyzing the frames, in order to detect faces. Once faces are detected, we're also encoding that image, and after that trying to find a match with our known faces. If match happens, the name is shown on the image, otherwise Unknown is shown.   
+Check the face_recognition pkg documentation (https://face-recognition.readthedocs.io/en/latest/face_recognition.html).   
 
 
 
